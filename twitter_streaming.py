@@ -9,10 +9,7 @@ import tweepy
 import csv
 
 #Variables that contains the user credentials to access Twitter API
-access_token = "926157826342371329-z1HRWsNes6zSLvzMyUmvy3nB4Kg2qOd"
-access_token_secret = "2041mVPf7a4qU3aNKkWJmOYd1MaSr6EP7mu81TBLMPUbF"
-consumer_key = "4oRhSMKUB3d5Sd364CjrIQSOd"
-consumer_secret = "sULa9DU1dD7Npym4DDQKLuILsmfPXQvfMjG8Qti5sN4pNzFtgr"
+#enter variables that can be found in google drive file "twitter-bot notes"
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
